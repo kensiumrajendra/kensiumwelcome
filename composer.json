@@ -4,6 +4,7 @@
   "require": {
         "magento/magento-composer-installer": "*"
     },
+  "version": "alpha",
   "type": "magento2-module",
   "license": "MIT",
    "extra": {
@@ -15,12 +16,12 @@
         ]
     },
   "autoload": {
+      "psr-4": {
+      "Kensium\\Welcome\\": ""
+    },
     "files": [
       "registration.php"
-    ],
-    "psr-4": {
-      "Kensium\\Welcome\\": "",
-    },
+    ]
   },
   "repositories": [
         {
