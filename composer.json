@@ -4,7 +4,7 @@
   "require": {
         "magento/magento-composer-installer": "*"
     },
-  "version": "alpha",
+  "version": "dev-master",
   "type": "magento2-module",
   "license": "MIT",
    "extra": {
